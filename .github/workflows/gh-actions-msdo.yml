@@ -23,7 +23,7 @@ jobs:
       # Checkout your code repository to scan
     - uses: actions/checkout@v3
 
-      # Run analyzers
+      # Run  analyzers
     - name: Run Microsoft Security DevOps
       uses: microsoft/security-devops-action@latest
       id: msdo
